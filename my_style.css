@@ -25,9 +25,28 @@
   } */
 
   body {
-    background-color:#ccc;
+    background-color:white; /*#ccc;*/
     color:black;
     font-size:14pt;
+    height: 100vh;
+  }
+
+
+  /* Style the footer */
+  footer {
+    font-size:1vw;
+    clear: both;
+    position: relative; /* absolute;*/
+    bottom: 0;
+    width: 100%;
+    /*height: 1rem;*/
+    background-color: #777;
+    padding: 0.5vw;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    /*margin-bottom: -1px;*/
+    margin-left:0%;
   }
 
   /* tab button style*/
@@ -74,7 +93,7 @@
 
   .main {
     margin-left: 10vw; /* Same as the width of the sidenav */
-    font-size: 1.2vw; 
+    font-size: 1.2vw;
     padding: 0px 10px;
   }
 
@@ -96,19 +115,5 @@
     padding-bottom: 1rem;
   }
 */
-
-  /* Style the footer */
-  footer {
-    position: relative; /* absolute; */
-    bottom: 0;
-    width: 100%;
-    height: 1rem;
-    background-color: #777;
-    padding: 10px;
-    text-align: center;
-    color: white;
-    margin-top: 50%;
-    margin-left:0%;
-  }
 
 </style>
