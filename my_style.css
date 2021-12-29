@@ -27,24 +27,25 @@
   body {
     background-color:white; /*#ccc;*/
     color:black;
-    font-size:14pt;
+    font-size:1.5vw;
     height: 100vh;
+    /*min-height: 100%;*/
+    padding-bottom: 5vw;
   }
 
 
   /* Style the footer */
   footer {
-    font-size:1vw;
+    font-size:0.75vw;
     clear: both;
-    position: relative; /* absolute;*/
-    bottom: 0;
+    position: fixed; /* absolute; /* relative;*/
+    bottom: 0vw;
     width: 100%;
-    /*height: 1rem;*/
     background-color: #777;
-    padding: 0.5vw;
+    padding: 0.25vw;
     text-align: center;
     color: white;
-    margin-top: 10px;
+    margin-top: 1vw;
     /*margin-bottom: -1px;*/
     margin-left:0%;
   }
@@ -82,7 +83,6 @@
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 1.5vw;
     color: #818181;
     display: block;
   }
@@ -98,8 +98,8 @@
   }
 
   @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {padding-top: 1vw;}
+    .sidenav a {font-size: 1.2vw;}
   }
 
   tt {
